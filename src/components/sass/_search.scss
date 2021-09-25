@@ -1,0 +1,22 @@
+.area {
+  width: 1140px;
+  background-color: #fefefe;
+  float: right;
+  height: 55px;
+  span {
+    width: 500px;
+    border: 0;
+    span {
+      width: 20px;
+    }
+  }
+}
+
+.select {
+  width: 150px;
+  float: right;
+  padding-top: 5px;
+  span {
+    width: 33px;
+  }
+}

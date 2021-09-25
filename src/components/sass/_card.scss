@@ -1,0 +1,162 @@
+.card {
+  width: 1100px;
+  height: 340px;
+  float: right;
+  right: 20px;
+  top: 20px;
+  box-sizing: border-box;
+}
+
+.card-for-content2 {
+  width: 334px;
+  height: 140px;
+  float: right;
+  right: 20px;
+  top: 42px;
+  box-sizing: border-box;
+  margin-left: 49px;
+
+  img {
+    position: relative;
+    bottom: 13px;
+  }
+}
+
+.card-for-content3 {
+  float: right;
+  display: flex;
+  top: 61px;
+  position: relative;
+  right: 403px;
+  div {
+    width: 142px;
+    height: 79px;
+    border-radius: 10px;
+    margin-left: 49px;
+    img {
+      position: absolute;
+      top: 18px;
+      left: 10px;
+    }
+  }
+  div:nth-child(2) {
+    background-color: #fa8c16;
+  }
+  div:nth-child(4) {
+    background-color: #f5222d;
+  }
+
+  div:nth-child(3) {
+    background-color: #20c997;
+  }
+}
+.first-child-div {
+  background-color: #13c2c2;
+}
+.imgUser {
+  width: 30px;
+  border-radius: 23px;
+  margin: 0 10px 14px 19px;
+}
+.activities {
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  margin: 7px 10px 0 0;
+}
+
+.info {
+  width: 200px;
+}
+.shapes {
+  width: 400px;
+  padding: 65px 0 0 80px;
+}
+.flex {
+  display: flex;
+  width: 1100px;
+  box-sizing: border-box;
+}
+
+.img1 {
+  position: relative;
+  width: 350px;
+}
+.img2 {
+  position: absolute;
+  left: 314px;
+  top: 214px;
+  width: 350px;
+}
+
+.male {
+  height: 3px;
+  background-color: #13c2c2;
+  width: 80%;
+  border: 0;
+  position: relative;
+  right: 33px;
+}
+.female {
+  height: 3px;
+  background-color: #030852;
+  width: 60%;
+  border: 0;
+  position: relative;
+  right: 64px;
+}
+.other {
+  height: 3px;
+  background-color: #fa8c16;
+  width: 20%;
+  border: 0;
+  position: relative;
+  right: 128px;
+}
+
+.todolist {
+  width: 715px;
+  float: right;
+  top: 76px;
+  right: 403px;
+  height: 200px;
+}
+
+.dflex {
+  display: flex;
+  justify-content: space-between;
+  div {
+    p {
+      width: auto;
+      background-color: #d9d9d9;
+      border-radius: 15px;
+    }
+  }
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  position: relative;
+  font-size: 15px;
+  font-weight: 300;
+
+  a {
+    color: rgb(56, 74, 92);
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+  }
+  a:hover {
+    background: #ffffff06;
+    color: rgb(117, 134, 146);
+  }
+  a:nth-child(2) {
+    margin-left: 15px;
+  }
+}
+
+.searchicon {
+  margin: 16px 0 0 269px;
+}

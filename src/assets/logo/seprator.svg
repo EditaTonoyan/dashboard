@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 1" width="246" height="1">
+	<title>Left Sidebar light</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #038fde } 
+	</style>
+	<g id="Left Sidebar light">
+		<g id="quick icons">
+			<path id="seprator" class="shp0" d="M0 1L0 0L246 0L246 1L0 1Z" />
+		</g>
+	</g>
+</svg>
