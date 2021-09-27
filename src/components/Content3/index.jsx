@@ -9,6 +9,7 @@ import thems from "../../assets/logo/thems.png";
 import files from "../../assets/logo/files.png";
 import userImg from "../../assets/logo/user.svg";
 import search from "../../assets/logo/searchTodo.png";
+import ellipse from "../../assets/logo/ellipse.png";
 
 const Content3 = () => {
   return (
@@ -40,7 +41,6 @@ const Content3 = () => {
             <a href="#">Task List</a>
             <a href="#">All Tasks</a>
             <a href="#">My Tasks</a>
-            {/* <SearchOutlined className="searchicon" /> */}
           </div>
           <div>
             <img src={search} alt="search" />
@@ -60,6 +60,35 @@ const Content3 = () => {
             <img className="imgUser" src={userImg} alt="user" />
             <span> date</span>
           </div>
+        </div>
+      </Card>
+      <div className="tickets">
+        <Card>
+          <div className="dflex">
+            <h4>Recent:Support Tickets</h4>
+            <a href="#">See All Tasks --></a>
+          </div>
+        </Card>
+        <Card>
+          <div>
+            <h4>Tickets By Status</h4>
+            <img className="ellipse" src={ellipse} alt="ellispe" />
+            <h1 className="sum">24</h1>
+          </div>
+        </Card>
+      </div>
+
+      <Card className="map">
+        <div>
+          <h4>Revenu Overviews</h4>
+          <p>Europe</p>
+          <hr />
+          <p>North America</p>
+          <hr />
+          <p>Japan, South Karia</p>
+          <hr />
+          <p>Other</p>
+          <hr />
         </div>
       </Card>
     </>

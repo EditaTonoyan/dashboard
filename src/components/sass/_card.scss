@@ -133,6 +133,9 @@
       border-radius: 15px;
     }
   }
+  a {
+    margin-right: 33px;
+  }
 }
 
 .links {
@@ -159,4 +162,71 @@
 
 .searchicon {
   margin: 16px 0 0 269px;
+}
+.tickets {
+  width: 715px;
+  float: right;
+  top: 95px;
+  right: 403px;
+  height: 230px;
+  display: flex;
+  position: relative;
+  div {
+    width: 420px;
+    margin-right: 20px;
+  }
+  div:nth-child(2) {
+    // margin-right: 10px;
+    width: 275px;
+  }
+}
+.ellipse {
+  position: relative;
+  bottom: 17px;
+  left: 22px;
+}
+.sum {
+  position: absolute;
+  bottom: 65px;
+  left: 121px;
+}
+
+.map {
+  width: 715px;
+  float: right;
+  top: 115px;
+  right: 403px;
+  height: 280px;
+  hr:nth-child(3) {
+    height: 3px;
+    background-color: #722ed1;
+    width: 160px;
+    border: 0;
+    position: relative;
+    right: 253px;
+  }
+  hr:nth-child(5) {
+    height: 3px;
+    background-color: #52c41a;
+    width: 145px;
+    border: 0;
+    position: relative;
+    right: 260px;
+  }
+  hr:nth-child(7) {
+    height: 3px;
+    background-color: #fadb14;
+    width: 125px;
+    border: 0;
+    position: relative;
+    right: 270px;
+  }
+  hr:nth-child(9) {
+    height: 3px;
+    background-color: #9e9e9e;
+    width: 87px;
+    border: 0;
+    position: relative;
+    right: 289px;
+  }
 }
